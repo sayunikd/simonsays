@@ -49,7 +49,9 @@ def loop():
 				LED.destroy()
 			elif answer=='n':
 				print 'Goodbye!'
-				exit()
+				exit()			
+				LED.noColor()
+				LED.destroy()
 		#validate_guess(color_sequence_string.upper(), guess.upper())
 		
 			#time.sleep(.3)
